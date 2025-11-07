@@ -1,0 +1,28 @@
+{
+  "name": "fp-ts-vs-vanilla-ts-v8-jit",
+  "author": "Abhijit Baldawa",
+  "version": "1.0.0",
+  "description": "fp-ts vs vanilla TS JIT optimization benchmark",
+  "type": "module",
+  "scripts": {
+    "benchmark": "node --expose-gc --experimental-strip-types ./src/benchmark.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhijit-baldawa-causaly/fp-ts-vs-vanilla-ts-v8-jit.git"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhijit-baldawa-causaly/fp-ts-vs-vanilla-ts-v8-jit/issues"
+  },
+  "homepage": "https://github.com/abhijit-baldawa-causaly/fp-ts-vs-vanilla-ts-v8-jit#readme",
+  "dependencies": {
+    "fp-ts": "^2.16.11",
+    "tsx": "^4.20.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.17.1",
+    "typescript": "^5.9.3"
+  }
+}
